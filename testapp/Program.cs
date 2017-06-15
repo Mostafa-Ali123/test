@@ -11,6 +11,10 @@ namespace testapp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Person p = new Person();
+            p.Id = 1;
+            p.Name = "A";
+            Console.WriteLine("My name is {0}",p.Name);
         }
     }
 }
