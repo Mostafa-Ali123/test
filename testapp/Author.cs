@@ -9,5 +9,6 @@ namespace testapp
     class Author : Person
     {
         public string Affiliation { get; set; }
+        public string Country{get;set;}
     }
 }
